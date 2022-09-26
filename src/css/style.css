@@ -1,0 +1,96 @@
+html {
+    font-size: 62.5%;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+}
+
+body {
+    max-width: 1440px;
+    margin: 95px auto;
+    height: 80vh;
+    background: #674BAF url(../images/bg-desktop.svg) center center no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    padding: 40px;
+    display: flex;
+}
+
+.header .titulo{
+    font-size: 0;
+    max-width: 100%;
+}
+
+.hero {
+    display: flex;
+    padding: 0 40px;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+    color: #FFFFFF;
+    align-items: center;
+}
+
+.hero .hero-image {
+    margin-right: 40px;
+    max-width: 100%;
+}
+
+.hero .info .hero-title {
+    font-size: 4.5rem;
+    max-width: 500px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero .info .description {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    max-width: 550px;
+}
+
+.hero .info .btn-register {
+    padding: 20px 75px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: #674BAF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: .3s;
+
+    box-shadow: 0px 6px 6px rgba(0, 0, 0, .3);
+}
+
+.hero .info .btn-register:hover {
+    background-color: #E882E8;
+    color: #FFFFFF;
+}
+
+.footer {
+    display: flex;
+    justify-content: right;
+    padding: 0 40px;
+}
+
+.footer .social {
+    font-size: 2rem;
+}
+
+.footer .social a i {
+    text-align: center;
+    height: 50px;
+    width: 50px;
+    color: #FFFFFF;
+    padding: 15px;
+    margin-right: 10px;
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+}
+
+.footer .social a i:hover {
+    border-color: #E882E8;
+    color: #E882E8;
+}

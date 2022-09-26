@@ -1,0 +1,53 @@
+@media(max-width: 1200px) {
+    body {
+        margin: 0;
+        max-width: 100%;
+        height: 100%;
+        background: #674BAF url(../images/bg-mobile.svg) center center no-repeat;
+    }
+
+    .header .titulo img {
+        width: 150px;
+        margin-bottom: 50px;
+    }
+
+    .hero {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .hero .info {
+        text-align: center;
+    }
+
+    .hero .hero-image {
+        margin-bottom: 40px;
+    }
+
+    .hero .info .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero .info .description {
+        font-size: 1.5rem;
+    }
+
+    .hero .info .btn-register {
+        padding: 10px 80px;
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        justify-content: center;
+        text-align: center;
+        padding: 80px 10px;
+    }
+
+    .footer .social {
+        width: 400px;
+    }
+
+    .footer .social a i {
+        font-size: 1.8rem;
+    }
+}
