@@ -9,7 +9,7 @@
 
     .header .titulo img {
         width: 150px;
-        margin-bottom: 50px;
+        margin-bottom: 23px;
     }
 
     .hero {
@@ -27,6 +27,8 @@
 
     .hero .info .hero-title {
         font-size: 2rem;
+        width: 250px;
+        margin: 0 auto 30px;
     }
 
     .hero .info .description {
